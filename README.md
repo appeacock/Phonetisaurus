@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/AdolfVonKleist/Phonetisaurus.svg?branch=master)](https://travis-ci.org/AdolfVonKleist/Phonetisaurus)
 
 This repository contains scripts suitable for training, evaluating and using grapheme-to-phoneme
-models for speech recognition using the OpenFst framework.  The current build requires OpenFst
+models for speech recognition using the OpenFst framework with Python3 bindings.  The current build requires OpenFst
 version 1.6.0 or later, and the examples below use version 1.6.2.
 
 The repository includes C++ binaries suitable for training, compiling, and evaluating G2P models.
@@ -13,9 +13,6 @@ Standalone distributions related to previous INTERSPEECH papers, as well as the 
 final version of the old google-code repository are available via ```git-lfs``` in a separate
 repository:
   * https://github.com/AdolfVonKleist/phonetisaurus-downloads
-
-#### Contact: ####
-  * phonetisaurus@gmail.com
 
 #### Scratch Build for OpenFst v1.6.2 and Ubuntu 14.04/16.04 ####
 This build was tested via AWS EC2 with a fresh Ubuntu 14.04 and 16.04 base, and m4.large instance.
@@ -46,32 +43,9 @@ $ echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib:/usr/local/lib/
 $ source ~/.bashrc
 ```
 
-Checkout the latest Phonetisaurus from master
+Checkout the latest Phonetisaurus and compile with python3 bindings
 ```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
-$ cd Phonetisaurus
-$ ./configure
-$ make
-$ sudo make install
-```
-
-or, if you want to compile with python bindings
-```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
-$ cd Phonetisaurus
-$ sudo pip install pybindgen
-$ ./configure --enable-python
-$ make
-$ sudo make install
-$ cd python
-$ cp ../.libs/Phonetisaurus.so .
-$ sudo python setup.py install
-$ cd
-```
-
-or, if you want to compile with python3 bindings
-```
-$ git clone https://github.com/AdolfVonKleist/Phonetisaurus.git
+$ git clone https://github.com/aplawson/Phonetisaurus.git
 $ cd Phonetisaurus
 $ sudo pip3 install pybindgen
 $ PYTHON=python3 ./configure --enable-python
