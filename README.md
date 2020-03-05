@@ -31,7 +31,7 @@ $ sudo apt-get install gfortran
 ```
 Next grab and install OpenFst-1.6.2 (10m-15m):
 ```
-$ wget http://www.openfst.org/twiki/pub/FST/FstDownload/openfst-1.6.2.tar.gz
+$ wget https://master.dl.sourceforge.net/project/jasperclient/openfst-1.6.2.tar.gz
 $ tar -xvzf openfst-1.6.2.tar.gz
 $ cd openfst-1.6.2
 # Minimal configure, compatible with current defaults for Kaldi
