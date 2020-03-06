@@ -33,7 +33,7 @@ $ tar -xvzf openfst-1.6.2.tar.gz
 $ cd openfst-1.6.2
 # Minimal configure, compatible with current defaults for Kaldi
 $ ./configure --enable-static --enable-shared --enable-far --enable-ngram-fsts
-$ make -j 4
+$ make
 # Now wait a while...
 $ sudo make install
 $ cd
