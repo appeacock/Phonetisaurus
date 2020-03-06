@@ -1,5 +1,4 @@
 ## Phonetisaurus G2P ##
-[![Build Status](https://travis-ci.org/AdolfVonKleist/Phonetisaurus.svg?branch=master)](https://travis-ci.org/AdolfVonKleist/Phonetisaurus)
 
 This repository contains scripts suitable for training, evaluating and using grapheme-to-phoneme
 models for speech recognition using the OpenFst framework with Python3 bindings.  The current build requires OpenFst
@@ -14,7 +13,7 @@ final version of the old google-code repository are available via ```git-lfs``` 
 repository:
   * https://github.com/AdolfVonKleist/phonetisaurus-downloads
 
-#### Scratch Build for OpenFst v1.6.2 and Ubuntu 14.04/16.04 ####
+#### Scratch Build for OpenFst v1.6.2 ####
 This build was tested via AWS EC2 with a fresh Ubuntu 14.04 and 16.04 base, and m4.large instance.
 
 ```
