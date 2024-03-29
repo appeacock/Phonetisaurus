@@ -44,7 +44,7 @@ Checkout the latest Phonetisaurus and compile with python3 bindings
 ```
 $ git clone https://github.com/aplawson/Phonetisaurus.git
 $ cd Phonetisaurus
-$ rm -rf python/pybindgen
+$ sudo apt install python3-pip
 $ sudo pip3 uninstall pybindgen
 $ sudo pip3 install pybindgen
 $ PYTHON=python3 ./configure --enable-python
