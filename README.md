@@ -72,7 +72,7 @@ Grab a copy of the latest version of CMUdict and clean it up a bit:
 ```
 $ mkdir example
 $ cd example
-$ wget https://raw.githubusercontent.com/cmusphinx/cmudict/master/cmudict.dict
+$ wget https://raw.githubusercontent.com/appeacock/cmudict/master/cmudict.dict
 # Clean it up a bit and reformat:
 $ cat cmudict.dict \
   | perl -pe 's/\([0-9]+\)//;
