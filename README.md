@@ -36,8 +36,7 @@ $ make
 $ sudo make install
 $ cd
 # Extend your LD_LIBRARY_PATH .bashrc:
-$ echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib:/usr/local/lib/fst' \
-     >> ~/.bashrc
+$ echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/local/lib:/usr/local/lib/fst' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 
