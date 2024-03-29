@@ -21,6 +21,7 @@ $ sudo apt-get update
 # Basics
 $ sudo apt-get install git g++ autoconf-archive make libtool
 # Python bindings
+$ sudo ln -s $(which python3) /usr/bin/python
 $ sudo apt-get install python3-setuptools python3-dev gfortran
 # python3 install_mitlm.py (to build a quick play model)
 ```
