@@ -22,7 +22,7 @@ $ sudo apt-get update
 $ sudo apt-get install git g++ autoconf-archive make libtool
 # Python bindings
 $ sudo apt-get install python3-setuptools python3-dev
-# mitlm (to build a quick play model)
+# python3 install_mitlm.py (to build a quick play model)
 $ sudo apt-get install gfortran
 ```
 Next grab and install OpenFst-1.6.2 (10m-15m):
