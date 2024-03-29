@@ -57,15 +57,15 @@ $ cd
 ```
 
 
-#Grab and install mitlm to build a quick test model with the cmudict (5m):
-#```
-#$ git clone https://github.com/mitlm/mitlm.git
-#$ cd mitlm/
-#$ ./autogen.sh
-#$ make
-#$ sudo make install
-#$ cd
-#```
+# Grab and install mitlm to build a quick test model with the cmudict (5m):
+# ```
+# $ git clone https://github.com/mitlm/mitlm.git
+# $ cd mitlm/
+# $ ./autogen.sh
+ #$ make
+# $ sudo make install
+# $ cd
+# ```
 
 Grab a copy of the latest version of CMUdict and clean it up a bit:
 ```
